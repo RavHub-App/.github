@@ -8,7 +8,7 @@
 
 **Simple. Scalable. Self-Hosted.**
 
-[Website](https://ravhub.io) • [Documentation](https://docs.ravhub.io) • [Community](https://discord.gg/ravhub)
+[Website](https://ravhub.io) • [Documentation](https://docs.ravhub.io) • [Discussions](https://github.com/RavHub-App/ravhub-core/discussions)
 
 </div>
 
