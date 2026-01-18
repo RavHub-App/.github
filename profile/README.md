@@ -46,9 +46,11 @@ We support the languages you love:
 ## 🗺️ Roadmap
 
 - [x] **Core Registry**: Polyglot support (NPM, Maven, PyPI, etc.)
+- [x] **Docker V2 API**: Full OCI Compliance.
 - [x] **Proxy & Caching**: Smart caching for upstream registries.
-- [ ] **Docker V2 API**: Full OCI Compliance.
-- [ ] **replication**: Geo-distributed replication for enterprise clusters.
+- [ ] **Test Coverage Expansion**: Reaching >90% coverage across all modules.
+- [ ] **Public Beta Release**: Publish initial versions of `ravhub-core` and `ravhub-charts`.
+- [ ] **Replication**: Geo-distributed replication for enterprise clusters.
 
 ---
 
