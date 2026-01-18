@@ -29,7 +29,7 @@ RavHub is the modern alternative to legacy artifact managers like Sonatype Nexus
 | :--------------------------------------------------------------- | :------------------------------------------------------------------- | :---------------: | :--------: |
 | [**ravhub-core**](https://github.com/RavHub-App/ravhub-core)     | The open-source registry engine. Handles NPM, Maven, PyPI, and more. |  � Construction   |  AGPL-3.0  |
 | [**ravhub-charts**](https://github.com/RavHub-App/ravhub-charts) | Official Helm Charts for Kubernetes deployment.                      |   � Coming Soon   | Apache-2.0 |
-| [**ravhub-enterprise**](https://ravhub.app/enterprise)           | Advanced features: Storage Adapters, Backup System, & LDAP.          | 🔒 In Development | Commercial |
+| [**ravhub-enterprise**](https://ravhub.app/enterprise)           | Advanced features: Storage Adapters & Backup System.                 | 🔒 In Development | Commercial |
 
 ## 🛠️ Supported Formats
 
