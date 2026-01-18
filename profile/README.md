@@ -19,9 +19,9 @@
 RavHub is the modern alternative to legacy artifact managers like Sonatype Nexus or JFrog Artifactory. Built from the ground up for the cloud-native era.
 
 - **🏠 Self-Hosted First**: Keep your artifacts on your own infrastructure (On-Premise or Cloud).
-- **🛡️ Enterprise Grade**: RBAC, Audit Logs, and SSO included in the design tailored for compliance.
+- **🛡️ Secure by Design**: RBAC and Audit Logs built-in from the start.
 - **⚡ High Performance**: Built with NestJS and optimized for extreme throughput.
-- **☁️ Cloud Native**: Native integration with S3, GCS, and Azure Blob Storage.
+- **🐳 Docker First**: Optimized for containerized deployments with official Helm Charts.
 
 ## 📦 Ecosystem
 
