@@ -31,7 +31,7 @@ RavHub is the modern alternative to legacy artifact managers like Sonatype Nexus
 | [**ravhub-core**](https://github.com/RavHub-App/ravhub-core) | Public beta of the universal package registry engine for Docker, NPM, Maven, PyPI, NuGet, Composer, Cargo, Helm, and more. | 🚀 Public Beta | AGPL-3.0 |
 | [**ravhub-charts**](https://github.com/RavHub-App/ravhub-charts) | Official Helm Charts for Kubernetes deployment. | ✅ Available | Apache-2.0 |
 | [**ravhub-license-portal**](https://github.com/RavHub-App/ravhub-license-portal) | Licensing, billing, access management, and public product portal. | ✅ Live | Proprietary |
-| [**ravhub-docs**](https://github.com/rubensantibanezacosta/ravhub-docs) | Public documentation site for RavHub, including product, deployment, and versioned docs. | ✅ Live | MIT |
+| [**ravhub-docs**](https://github.com/RavHub-App/ravhub-docs) | Public documentation site for RavHub, including product, deployment, and versioned docs. | ✅ Live | MIT |
 
 ## 🛠️ Supported Formats
 
@@ -53,7 +53,7 @@ RavHub already supports the ecosystems modern teams need:
 - [x] **Proxy & Caching**: Smart upstream proxy repositories
 - [x] **Public Documentation**: Live documentation published at `docs.ravhub.app`
 - [x] **Public Beta**: `ravhub-core` available in public beta
-- [ ] **Helm Ecosystem Expansion**: Continue improving Kubernetes deployment workflows
+- [x] **Helm Charts**: Official Kubernetes deployment available
 - [ ] **Replication**: Geo-distributed replication for advanced multi-site deployments
 - [ ] **Coverage Expansion**: Continue increasing automated test coverage
 
