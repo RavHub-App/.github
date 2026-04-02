@@ -4,11 +4,11 @@
 
 # RavHub
 
-### The Cloud-Native Package Registry for Modern Engineering Teams.
+### The Cloud-Native Package Registry for Modern Engineering Teams
 
 **Simple. Scalable. Self-Hosted.**
 
-[Website](https://ravhub.app) • [Documentation](https://docs.ravhub.app) • [Discussions](https://github.com/RavHub-App/ravhub-core/discussions)
+[Website](https://ravhub.app) • [Documentation](https://docs.ravhub.app) • [Issues](https://github.com/RavHub-App/ravhub-core/issues)
 
 </div>
 
@@ -16,41 +16,46 @@
 
 ## 🚀 Why RavHub?
 
-RavHub is the modern alternative to legacy artifact managers like Sonatype Nexus or JFrog Artifactory. Built from the ground up for the cloud-native era.
+RavHub is the modern alternative to legacy artifact managers like Sonatype Nexus or JFrog Artifactory, built from the ground up for the cloud-native era.
 
-- **🏠 Self-Hosted First**: Keep your artifacts on your own infrastructure (On-Premise or Cloud).
-- **🛡️ Secure by Design**: RBAC and Audit Logs built-in from the start.
-- **⚡ High Performance**: Built with NestJS and optimized for extreme throughput.
-- **🐳 Docker First**: Optimized for containerized deployments with official Helm Charts.
+- **🏠 Self-Hosted First**: Keep your artifacts on your own infrastructure, whether on-premise or in the cloud.
+- **🛡️ Secure by Design**: Built-in RBAC and audit logs for controlled, traceable package management.
+- **⚡ High Performance**: Lightweight architecture focused on fast I/O and efficient resource usage.
+- **☸️ Cloud-Native Deployment**: Ready for Docker Compose and Kubernetes with official Helm Charts.
+- **📚 Public Docs Available**: Documentation is live at [docs.ravhub.app](https://docs.ravhub.app).
 
 ## 📦 Ecosystem
 
-| Repository                                                       | Description                                                          |      Status       |  License   |
-| :--------------------------------------------------------------- | :------------------------------------------------------------------- | :---------------: | :--------: |
-| [**ravhub-core**](https://github.com/RavHub-App/ravhub-core)     | The open-source registry engine. Handles NPM, Maven, PyPI, and more. |  � Construction   |  AGPL-3.0  |
-| [**ravhub-charts**](https://github.com/RavHub-App/ravhub-charts) | Official Helm Charts for Kubernetes deployment.                      |   � Coming Soon   | Apache-2.0 |
-| [**ravhub-enterprise**](https://ravhub.app/enterprise)           | Advanced features: Storage Adapters & Backup System.                 | 🔒 In Development | Commercial |
+| Repository | Description | Status | License |
+| :-- | :-- | :--: | :--: |
+| [**ravhub-core**](https://github.com/RavHub-App/ravhub-core) | Public beta of the universal package registry engine for Docker, NPM, Maven, PyPI, NuGet, Composer, Cargo, Helm, and more. | 🚀 Public Beta | AGPL-3.0 |
+| [**ravhub-charts**](https://github.com/RavHub-App/ravhub-charts) | Official Helm Charts for Kubernetes deployment. | ✅ Available | Apache-2.0 |
+| [**ravhub-license-portal**](https://github.com/RavHub-App/ravhub-license-portal) | Licensing, billing, access management, and public product portal. | ✅ Live | Proprietary |
+| [**ravhub-docs**](https://github.com/rubensantibanezacosta/ravhub-docs) | Public documentation site for RavHub, including product, deployment, and versioned docs. | ✅ Live | MIT |
 
 ## 🛠️ Supported Formats
 
-We support the languages you love:
+RavHub already supports the ecosystems modern teams need:
 
-- 📦 **NPM** (JavaScript/TypeScript)
-- 🐳 **Docker** (Container Images) _(Coming Soon)_
-- ☕ **Maven / Gradle** (Java/Kotlin)
-- 🐍 **PyPI** (Python)
-- 🎼 **Composer** (PHP)
-- 🔷 **NuGet** (.NET)
-- 🦀 **Cargo** (Rust)
+- 📦 **NPM** — JavaScript / TypeScript
+- 🐳 **Docker / OCI**
+- ☕ **Maven / Gradle** — Java / Kotlin
+- 🐍 **PyPI** — Python
+- 🎼 **Composer** — PHP
+- 🔷 **NuGet** — .NET
+- 🦀 **Cargo** — Rust
+- ⎈ **Helm**
 
 ## 🗺️ Roadmap
 
-- [x] **Core Registry**: Polyglot support (NPM, Maven, PyPI, etc.)
-- [x] **Docker V2 API**: Full OCI Compliance.
-- [x] **Proxy & Caching**: Smart caching for upstream registries.
-- [ ] **Test Coverage Expansion**: Reaching >90% coverage across all modules.
-- [ ] **Public Beta Release**: Publish initial versions of `ravhub-core` and `ravhub-charts`.
-- [ ] **Replication**: Geo-distributed replication for enterprise clusters.
+- [x] **Core Registry**: Polyglot support for modern package ecosystems
+- [x] **Docker V2 / OCI Support**
+- [x] **Proxy & Caching**: Smart upstream proxy repositories
+- [x] **Public Documentation**: Live documentation published at `docs.ravhub.app`
+- [x] **Public Beta**: `ravhub-core` available in public beta
+- [ ] **Helm Ecosystem Expansion**: Continue improving Kubernetes deployment workflows
+- [ ] **Replication**: Geo-distributed replication for advanced multi-site deployments
+- [ ] **Coverage Expansion**: Continue increasing automated test coverage
 
 ---
 
